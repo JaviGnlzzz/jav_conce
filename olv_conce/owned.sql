@@ -18,7 +18,7 @@
 CREATE TABLE IF NOT EXISTS `owned_vehicles` (
   `owner` varchar(46) DEFAULT NULL,
   `plate` varchar(12) NOT NULL,
-  `vehicle` longtext DEFAULT NULL,
+  `properties` longtext DEFAULT NULL,
   `type` varchar(20) NOT NULL DEFAULT 'car',
   `stored` tinyint(4) NOT NULL DEFAULT 0,
   `parking` varchar(60) DEFAULT NULL,
